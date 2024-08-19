@@ -1,63 +1,274 @@
 ---
+#Регистрация
 - summary: |
-    00000000000000
+    Страница регистрация пользователя черезе email 
   requirement: |
-    00000000000000
+    Страница регистрации должна содержать поля для ввода - nickname, email, password, password  confirmation
   prerequisites: |
-    00000000000000
+    Открыта главная страница сайта - https://codebattle.hexlet.io
   test-data: |
-    00000000000000
+    - 
   steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
+    - Нажать "Sign up" в новигации сайта
   expected-result: |
-    00000000000000
-:::
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
+    Открыта страница для регистрации через email - "Sign Up" 
+    Страница содержит поля для ввода - nickname, email, password, password confirmation
 
 - summary: |
-    00000000000000
+    Регистрация пользователя через email с существующими данными 
   requirement: |
-    00000000000000
+    Пользователь должен иметь возможность зарегистрироваться на сайте с помощью email
   prerequisites: |
-    00000000000000
+    Открыта главная страница сайта - https://codebattle.hexlet.io
   test-data: |
-    00000000000000
+    nickname = kideki
+    email = 123456@yandex.ru 
+    password = 123456q 
+    password confirmation = 123456q
   steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
+    - Нажать "Sign up" в новигации сайта
+    - Ввести email
+    - Ввести nickname
+    - Ввести password
+    - Ввести nickname
+    - Ввести password confirmation
+    - Нажать Submit
   expected-result: |
-    00000000000000
+    Пользователь зарегистрирован и авторизован на сайте. Открыта главная страница сайта
 
 - summary: |
-    00000000000000
+    Регистрация пользователя с пустыми данными
   requirement: |
-    00000000000000
+    Все поля для регистрации через email обязательны для заполнения
   prerequisites: |
-    00000000000000
+    Открыта главная страница сайта - https://codebattle.hexlet.io
   test-data: |
-    00000000000000
+    -
   steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
+    - Нажать "Sign up" в новигации сайта
+    - Нажать Submit
   expected-result: |
-    00000000000000
+    Пользователь не зарегистрирован на сайте. 
+    Все поля для ввода данных высвечивают ошибку.
+
+- summary: |
+    Регистрация пользователя через email с несуществующим именем 
+  requirement: |
+    При регистрации через email, ник должен содержать латинские буквы, цифры и символы подчеркивания
+  prerequisites: |
+    Открыта главная страница сайта - https://codebattle.hexlet.io
+  test-data: |
+    nickname = kideki!2 !
+    email = 123456@yandex.ru 
+    password = 123456q 
+    password confirmation = 123456q
+  steps:
+    - Нажать "Sign up" в новигации сайта
+    - Ввести email
+    - Ввести nickname
+    - Ввести password
+    - Ввести nickname
+    - Ввести password confirmation
+    - Нажать Submit
+  expected-result: |
+    Пользователь не зарегистрирован на сайте. 
+    Ник невалиден, высвечивается ошибка "Should contain Latin letters, numbers and underscores. Only begin with latin letter" 
+    ("Никнейм должнен содержать латинские буквы, цифры и символы подчеркивания")
+
+- summary: |
+    Регистрация пользователя через email с именем содержащим пробел
+  requirement: |
+    При регистрации через email, имя не может начинаться или заканчиваться пустыми символами
+  prerequisites: |
+    Открыта главная страница сайта - https://codebattle.hexlet.io
+  test-data: |
+    nickname = " kideki " (без ковычек)
+    email = 123456@yandex.ru 
+    password = 123456q 
+    password confirmation = 123456q
+  steps:
+    - Нажать "Sign up" в новигации сайта
+    - Ввести email
+    - Ввести nickname 
+    - Ввести password
+    - Ввести nickname
+    - Ввести password confirmation
+    - Нажать Submit
+  expected-result: |
+    Пользователь не зарегистрирован на сайте. 
+    Ник невалиден, высвечивается ошибка "Can't start or end with empty symbols" 
+    ("Не может начинаться или заканчиваться пустыми символами")
+
+- summary: |
+    Регистрация пользователя через email с несуществующей почтой
+  requirement: |
+    При регистрации через email, почта должна быть валидна
+  prerequisites: |
+    Открыта главная страница сайта - https://codebattle.hexlet.io
+  test-data: |
+    nickname = kideki
+    email = 4444
+    password = 123456q 
+    password confirmation = 123456q
+  steps:
+    - Нажать "Sign up" в новигации сайта
+    - Ввести email
+    - Ввести nickname
+    - Ввести password
+    - Ввести nickname
+    - Ввести password confirmation
+    - Нажать Submit
+  expected-result: |
+    Пользователь не зарегистрирован на сайте. 
+    Почта невалидна, высвечивается ошибка "Invalid email" ("Недействительный адрес электронной почты")
+
+- summary: |
+    Регистрация пользователя через email с паролем меньше 6 знаков
+  requirement: |
+    При регистрации через email, пароль должен состоять от 6 до 16 знаков
+  prerequisites: |
+    Открыта главная страница сайта - https://codebattle.hexlet.io
+  test-data: |
+    nickname = kideki
+    email = 123456@yandex.ru 
+    password = 123
+    password confirmation = 123
+  steps:
+    - Нажать "Sign up" в новигации сайта
+    - Ввести email
+    - Ввести nickname
+    - Ввести password
+    - Ввести nickname
+    - Ввести password confirmation
+    - Нажать Submit
+  expected-result: |
+    Пользователь не зарегистрирован на сайте. 
+    Пароль невалиден, высвечивается ошибка "Should be from 6 to 16 characters" ("Пароль должен состоять от 6 до 16 знаков")
+
+- summary: |
+    Регистрация пользователя через email с паролем больше 6 знаков
+  requirement: |
+    При регистрации через email, пароль должен состоять от 6 до 16 знаков
+  prerequisites: |
+    Открыта главная страница сайта - https://codebattle.hexlet.io
+  test-data: |
+    nickname = kideki
+    email = 123456@yandex.ru 
+    password = 123456789101112131415!!!!
+    password confirmation = 123456789101112131415!!!!
+  steps:
+    - Нажать "Sign up" в новигации сайта
+    - Ввести email
+    - Ввести nickname
+    - Ввести password
+    - Ввести nickname
+    - Ввести password confirmation
+    - Нажать Submit
+  expected-result: |
+    Пользователь не зарегистрирован на сайте. 
+    Пароль невалиден, высвечивается ошибка "Should be from 6 to 16 characters" ("Пароль должен состоять от 6 до 16 знаков")
+
+- summary: |
+    Регистрация пользователя через email с паролем содержащим пробел
+  requirement: |
+    При регистрации через email, пароль должен состоять от 6 до 16 знаков
+  prerequisites: |
+    Открыта главная страница сайта - https://codebattle.hexlet.io
+  test-data: |
+    nickname = kideki
+    email = 123456@yandex.ru 
+    password = 1234 4321
+    password confirmation = 1234 4321
+  steps:
+    - Нажать "Sign up" в новигации сайта
+    - Ввести email
+    - Ввести nickname
+    - Ввести password
+    - Ввести nickname
+    - Ввести password confirmation
+    - Нажать Submit
+  expected-result: |
+    Пользователь не зарегистрирован на сайте. 
+    Пароль невалиден, высвечивается ошибка "Can't contain empty symbols" ("Не может содержать пустые символы")
+
+- summary: |
+    Несовпадающий пароль и подтверждение пароля при регистрации через email
+  requirement: |
+    При регистрации через email, «пароль» и «подтверждения пароля» должны совпадать
+  prerequisites: |
+    Открыта главная страница сайта - https://codebattle.hexlet.io
+  test-data: |
+    nickname = kideki
+    email = 123456@yandex.ru 
+    password = 123456q
+    password confirmation = q654321
+  steps:
+    - Нажать "Sign up" в новигации сайта
+    - Ввести email
+    - Ввести nickname
+    - Ввести password
+    - Ввести nickname
+    - Ввести password confirmation
+    - Нажать Submit
+  expected-result: |
+    Пользователь не зарегистрирован на сайте. 
+    Подтверждение пароля невалидно, высвечивается ошибка "Passwords must match" ("Пароли должны совпадать")
+
+- summary: |
+    Регистрация нового пользователя, через занятый email 
+  requirement: |
+    Через один email может зарегистрироваться только один пользователь
+  prerequisites: |
+    На сайте зарегестрирован пользователь
+    nickname = kideki
+    email = 123456@yandex.ru 
+    password = 123456q
+    Открыта главная страница сайта - https://codebattle.hexlet.io
+  test-data: |
+    nickname = kideki_noviy
+    email = 123456@yandex.ru 
+    password = atarashii_angoo
+    password confirmation = atarashii_angoo
+  steps:
+    - Нажать "Sign up" в новигации сайта
+    - Ввести email
+    - Ввести nickname
+    - Ввести password
+    - Ввести nickname
+    - Ввести password confirmation
+    - Нажать Submit
+  expected-result: |
+    Пользователь не зарегистрирован на сайте. 
+    Почта невалидна. Высвечивается ошибка "Email is already taken" ("Электронная почта уже занята")
+
+- summary: |
+    Уникальность ника при регистрации через email
+  requirement: |
+    При регистрации через email, никнейм должен быть уникальным
+  prerequisites: |
+    На сайте зарегестрирован пользователь
+    nickname = kideki
+    email = 123456@yandex.ru 
+    password = 123456q
+    Открыта главная страница сайта - https://codebattle.hexlet.io
+  test-data: |
+    nickname = kideki
+    email = atarashii@yandex.ru 
+    password = atarashii_angoo
+    password confirmation = atarashii_angoo
+  steps:
+    - Нажать "Sign up" в новигации сайта
+    - Ввести email
+    - Ввести nickname
+    - Ввести password
+    - Ввести nickname
+    - Ввести password confirmation
+    - Нажать Submit
+  expected-result: |
+    Пользователь не зарегистрирован на сайте. 
+    Ник не валиден. Высвечивается ошибка "Nickname is already taken" ("Никнейм уже занят")
+
+
 
 - summary: |
     00000000000000
