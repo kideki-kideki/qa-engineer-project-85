@@ -13,7 +13,7 @@
     - 00000000000000
   expected-result: |
     00000000000000
-
+:::
 - summary: |
     00000000000000
   requirement: |
