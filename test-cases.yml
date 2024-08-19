@@ -5,7 +5,7 @@
   requirement: |
     Страница регистрации должна содержать поля для ввода - nickname, email, password, password  confirmation
   prerequisites: |
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     - 
   steps:
@@ -19,7 +19,7 @@
   requirement: |
     Пользователь должен иметь возможность зарегистрироваться на сайте с помощью email
   prerequisites: |
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     nickname = kideki
     email = 123456@yandex.ru 
@@ -35,13 +35,14 @@
     - Нажать Submit
   expected-result: |
     Пользователь зарегистрирован и авторизован на сайте. Открыта главная страница сайта
+    В правом верхнем углу отображен аватар и nikname указанного пользователя
 
 - summary: |
     Регистрация пользователя с пустыми данными
   requirement: |
     Все поля для регистрации через email обязательны для заполнения
   prerequisites: |
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     -
   steps:
@@ -56,7 +57,7 @@
   requirement: |
     При регистрации через email, ник должен содержать латинские буквы, цифры и символы подчеркивания
   prerequisites: |
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     nickname = kideki!2 !
     email = 123456@yandex.ru 
@@ -80,7 +81,7 @@
   requirement: |
     При регистрации через email, имя не может начинаться или заканчиваться пустыми символами
   prerequisites: |
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     nickname = " kideki " (без ковычек)
     email = 123456@yandex.ru 
@@ -104,7 +105,7 @@
   requirement: |
     При регистрации через email, почта должна быть валидна
   prerequisites: |
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     nickname = kideki
     email = 4444
@@ -127,7 +128,7 @@
   requirement: |
     При регистрации через email, пароль должен состоять от 6 до 16 знаков
   prerequisites: |
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     nickname = kideki
     email = 123456@yandex.ru 
@@ -150,7 +151,7 @@
   requirement: |
     При регистрации через email, пароль должен состоять от 6 до 16 знаков
   prerequisites: |
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     nickname = kideki
     email = 123456@yandex.ru 
@@ -173,7 +174,7 @@
   requirement: |
     При регистрации через email, пароль должен состоять от 6 до 16 знаков
   prerequisites: |
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     nickname = kideki
     email = 123456@yandex.ru 
@@ -196,7 +197,7 @@
   requirement: |
     При регистрации через email, «пароль» и «подтверждения пароля» должны совпадать
   prerequisites: |
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     nickname = kideki
     email = 123456@yandex.ru 
@@ -223,7 +224,7 @@
     nickname = kideki
     email = 123456@yandex.ru 
     password = 123456q
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     nickname = kideki_noviy
     email = 123456@yandex.ru 
@@ -250,7 +251,7 @@
     nickname = kideki
     email = 123456@yandex.ru 
     password = 123456q
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     nickname = kideki
     email = atarashii@yandex.ru 
@@ -278,7 +279,7 @@
     nickname = kideki
     email = 123456@yandex.ru 
     password = 123456q
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     email = 123456@yandex.ru 
     password = 123456q
@@ -288,7 +289,7 @@
     - Ввести Password
     - Нажать "Submit"
   expected-result: |
-    Пользователь авторизован на сайте 
+    Пользователь авторизован на сайте. В правом верхнем углу отображен аватар и nikname указанного пользователя
 
 - summary: |
     Ошибка ввода пароля при входе на сайт через email
@@ -299,7 +300,7 @@
     nickname = kideki
     email = 123456@yandex.ru 
     password = 123456q
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     email = 123456@yandex.ru 
     password = 123456qqq
@@ -309,7 +310,7 @@
     - Ввести Password
     - Нажать "Submit"
   expected-result: |
-    Пользователь авторизован на сайте. Высвечивается ошибка "Invalid password" ("Неправильно указан пароль")
+    Пользователь неавторизован на сайте. Высвечивается ошибка "Invalid password" ("Неправильно указан пароль")
 
 - summary: |
     Авторизация незарегестрированного пользователя на сайте через email
@@ -317,7 +318,7 @@
     На сайте может авторизоваться только зарегистрированный пользователь
   prerequisites: |
     Данные незарегестрированного пользователя - email = noregrest@yandex.ru, password = 654321
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     email = noregrest@yandex.ru 
     password = 654321
@@ -338,32 +339,93 @@
     nickname = kideki
     email = 123456@yandex.ru 
     password = 123456q
-    Открыта главная страница сайта - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
     email = 123456@yandex.ru 
+    new password = new123456q
   steps:
     - Нажать "Sign in" в новигации сайта
-    - Нажать "Forgot your password?"
+    - Нажать "Forgot your password?" под полем ввода "Password"
+    - Ввести email в поле "Email"
+    - Нажать кнопку "Submit"
+    - В новом окне браузера перейти в почту и открыть письмо "Resert you password for Codebattle"
+    - Перейти по ссылке указанной в письме
+    - Ввести новый пароль "New password" (new password = new123456q)
+    - Нажать кнопку "Save"
+    - Перейти на главную страницу сайта https://codebattle.hexlet.io
+    - Нажать "Sign in" в новигации сайта
     - Ввести Email
-    - Нажать "Submit"
+    - Ввести new password в поле "Password"
+    - Нажать кнопку "Submit""
   expected-result: |
-    На странице выводится текст "We have sent you an email with instructions on how to reset your password"
-    ("Мы отправили вам электронное письмо с инструкциями о том, как сбросить пароль")
+    Пароль изменён. Пользователь авторизован на сайте. Открыта главная страница сайта
+    В правом верхнем углу отображен аватар и nikname указанного пользователя
 
 - summary: |
-    Вход на сайт с помощью аккаунта GitHub
+    Вход на сайт с помощью аккаунта GitHub через страницу входа
   requirement: |
     Пользователь должен иметь возможность войти на сайт с помощью аккаунта GitHub
   prerequisites: |
-    00000000000000
+    Пользователь зарегестрирован и авторизован на сайте GitHub https://github.com/ 
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
   test-data: |
-    00000000000000
+    -
   steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
+    - Нажать "Sign in" в новигации сайта
+    - Нажать на кнопку "Sign in with GitHub" 
   expected-result: |
-    00000000000000
+    Пользователь авторизован на сайте. Высвечивается сообщение "Successfully authenticated" ("Аутентификация успешно пройдена")
+    В правом верхнем углу отображен аватар и nikname указанного пользователя
+
+- summary: |
+    Вход на сайт с помощью аккаунта GitHub через страницу регистрации
+  requirement: |
+    Пользователь должен иметь возможность войти на сайт с помощью аккаунта GitHub
+  prerequisites: |
+    Пользователь зарегестрирован и авторизован на сайте GitHub https://github.com/ 
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
+  test-data: |
+    -
+  steps:
+    - Нажать "Sign up" в новигации сайта
+    - Нажать на кнопку "Sign in with GitHub" 
+  expected-result: |
+    Пользователь авторизован на сайте. Высвечивается сообщение "Successfully authenticated" ("Аутентификация успешно пройдена")
+    В правом верхнем углу отображен аватар и nikname указанного пользователя
+
+- summary: |
+    Вход на сайт с помощью аккаунта Discord через страницу входа
+  requirement: |
+    Пользователь должен иметь возможность войти на сайт с помощью аккаунта Discord
+  prerequisites: |
+    Пользователь зарегестрирован и авторизован на сайте Discord https://discord.com/
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
+  test-data: |
+    -
+  steps:
+    - Нажать "Sign in" в новигации сайта
+    - Нажать на кнопку "Sign in with Discord" 
+  expected-result: |
+    Пользователь авторизован на сайте. Высвечивается сообщение "Successfully authenticated" ("Аутентификация успешно пройдена")
+    В правом верхнем углу отображен аватар и nikname указанного пользователя
+
+- summary: |
+    Вход на сайт с помощью аккаунта Discord через страницу регистрации
+  requirement: |
+    Пользователь должен иметь возможность войти на сайт с помощью аккаунта Discord
+  prerequisites: |
+    Пользователь зарегестрирован и авторизован на сайте Discord https://discord.com/
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
+  test-data: |
+    -
+  steps:
+    - Нажать "Sign up" в новигации сайта
+    - Нажать на кнопку "Sign in with Discord" 
+  expected-result: |
+    Пользователь авторизован на сайте. Высвечивается сообщение "Successfully authenticated" ("Аутентификация успешно пройдена")
+    В правом верхнем углу отображен аватар и nikname указанного пользователя
+
+#
 
 - summary: |
     00000000000000
