@@ -416,7 +416,7 @@
     Пользователь должен иметь возможность войти на сайт с помощью аккаунта GitHub через страницу входа
   prerequisites: |
     Пользователь зарегестрирован и авторизован на сайте GitHub https://github.com/ 
-    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io , пользователь неавторизован
   test-data: |
     -
   steps:
@@ -432,7 +432,7 @@
     Пользователь должен иметь возможность войти на сайт с помощью аккаунта GitHub через страницу регистрации
   prerequisites: |
     Пользователь зарегестрирован и авторизован на сайте GitHub https://github.com/  
-    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io , пользователь неавторизован
   test-data: |
     -
   steps:
@@ -448,7 +448,7 @@
     Пользователь должен иметь возможность войти на сайт с помощью аккаунта Discord через страницу входа
   prerequisites: |
     Пользователь зарегестрирован и авторизован на сайте Discord https://discord.com/
-    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io , пользователь неавторизован
   test-data: |
     -
   steps:
@@ -464,7 +464,7 @@
     Пользователь должен иметь возможность войти на сайт с помощью аккаунта Discord через страницу регистрации
   prerequisites: |
     Пользователь зарегестрирован и авторизован на сайте Discord https://discord.com/
-    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io , пользователь неавторизован
   test-data: |
     -
   steps:
