@@ -20,6 +20,7 @@
     Пользователь должен иметь возможность зарегистрироваться на сайте с помощью email
   prerequisites: |
     Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
+    Данный email ранее не был зарегестрирован на сайте
   test-data: |
     nickname = kideki
     email = 123456@yandex.ru 
