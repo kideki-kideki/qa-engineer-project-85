@@ -431,7 +431,7 @@
   requirement: |
     Авторизованный пользователь должен иметь возможность создать новую игру 
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -454,7 +454,7 @@
   requirement: |
     При создании новой игры пользователь должен иметь возможность - выбрать уровень - elementary
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -475,7 +475,7 @@
   requirement: |
     При создании новой игры пользователь должен иметь возможность выбрать уровень - easy
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -496,7 +496,7 @@
   requirement: |
     При создании новой игры пользователь должен иметь возможность выбрать уровень - medium
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -517,7 +517,7 @@
   requirement: |
     При создании новой игры пользователь должен иметь возможность выбрать уровень - hard
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр  
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -538,7 +538,7 @@
   requirement: |
     При создании новой игры пользователь должен иметь возможность выбрать тип игры - с другим пользователем
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -563,7 +563,7 @@
   requirement: |
     При создании новой игры пользователь должен иметь возможность выбрать тип игры - с другом,
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -585,7 +585,7 @@
   requirement: |
     При создании новой игры пользователь должен иметь возможность выбрать тип игры - с ботом
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -605,7 +605,7 @@
   requirement: |
     При создании новой игры пользователь должен иметь возможность выбрать задачу по названию
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -625,7 +625,7 @@
   requirement: |
     При создании новой игры пользователь должен иметь возможность выбрать задачу тегу
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -646,7 +646,7 @@
   requirement: |
     При создании новой игры пользователь должен иметь возможность - выбрать время на проведение игры (от 3 до 60 минут)
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -667,7 +667,7 @@
   requirement: |
     При создании новой игры пользователь должен иметь возможность - выбрать время на проведение игры (от 3 до 60 минут)
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io 
   test-data: |
@@ -688,7 +688,7 @@
   requirement: |
     При создании игры можно выбрать определенную игру, иначе она будет подобрана наугад
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -704,13 +704,27 @@
     Открыта страница с игрой. 
     В окне Task выбрана рандомная игра с названием
 
-#Игра (авторизованный пользователь)
+#Игра 
+- summary: |
+    Пробная игра для неавторизованного пользователя 
+  requirement: |
+    Незарегистрированный пользователь должен иметь возможность попробовать сыграть в простую игру с ботом 
+  prerequisites: |
+    Открыта главная страница сайта Codebattle - https://codebattle.hexlet.io
+    Пользователь не авторизован 
+  test-data: |
+    -
+  steps:
+    - На главной странице сайта нажать кнопку "Try simple battle"
+  expected-result: |
+    Открыта страница игры с ботом 
+
 - summary: |
     Работа руководства по объяснению игры
   requirement: |
     Пользователь должен иметь возможность открыть и посмотреть руководство для изучения игры
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -736,7 +750,7 @@
   requirement: |
     На странице игры пользователю доступно окно с поставленной задачей 
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр  
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -756,7 +770,7 @@
   requirement: |
     Пользователь должен иметь возможность переключить задачу в игре на русский язык 
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -778,7 +792,7 @@
   requirement: |
     Пользователь должен иметь возможность переключить задачу в игре на английский язык
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -800,7 +814,7 @@
   requirement: |
     На странице игры пользователь должен иметь возможность сдаться
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -822,7 +836,7 @@
   requirement: |
     На странице игры пользователь может менять язык программирования
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -846,7 +860,7 @@
   requirement: |
     На странице игры пользователю доступно окно редактора для ввода решения
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -868,11 +882,31 @@
     Все символы вставленных текстов отображаются в редакторе корректно
 
 - summary: |
+    Редактор для ввода кода в виде проигрывателя 
+  requirement: |
+    Редактор для ввода кода должен выглядеть как проигрыватель
+  prerequisites: |
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
+    У пользователя нет активных игр 
+    Открыта главная страница Codebattle - https://codebattle.hexlet.io
+  test-data: |
+    -
+  steps:
+    - Нажать на кнопку "Create a game"
+    - Выбрать level, например easy
+    - Выбрать игрока "With a bot" в Game Type
+    - Выбрать любое время в Time control, например 10 min
+    - В поле Choose task by name выбрать любое значение или оставить random task
+    - Нажать кнопку "Create battle"
+  expected-result: |
+    Редактор для ввода кода выглядит как проигрователь
+
+- summary: |
     Сброс кода до исходного шаблона в игре с помощью кнопки "Reset solution" 
   requirement: |
     На странице игры пользователь должен иметь возможность сбросить код до исходного шаблона в окне для ввода 
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -895,7 +929,7 @@
   requirement: |
     На странице игры пользователь должен иметь возможность проверить своё решение
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -930,7 +964,7 @@
   requirement: |
     На странице игры пользователь должен иметь возможность проверить своё решение
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -965,7 +999,7 @@
   requirement: |
     На странице игры пользователю доступно окно вывода результата (ошибки после проверки)
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -1000,11 +1034,11 @@
   requirement: |
     На странице игры пользователь может видеть редактор с кодом и вывод тестов другого игрока в режиме online
   prerequisites: |
-    igrok_01 - Авторизовать на сайте с помощью браузера Microsoft Edge (email = testing_01@mail.ru  password = 123456 nikname = igrok_01)
-    igrok_02 - Открыть вкладку InPrivate и авторизовать на сайте второго пользователя (email = testing_02@mail.ru  password = 123456 nikname = igrok_02)
-    Открыть вкладки с авторизованными пользователями на разных мониторах или авторизовать второго пользователя на другом устройстве
-    У обоих игроков открыта главная страница Codebattle - https://codebattle.hexlet.io
-    У обоих игроков нет незавершенных игр. 
+    Авторизовать пользователей в разных браузерах или устройствах, (либо авторизовать igrok_02 через вкладку InPrivate)
+    igrok_01 - email = testing_01@mail.ru  password = 123456 nikname = igrok_01
+    igrok_02 - email = testing_02@mail.ru  password = 123456 nikname = igrok_02
+    У игроков открыта главная страница Codebattle - https://codebattle.hexlet.io
+    У игроков нет активных игр. 
   test-data: |
     -
   steps:
@@ -1032,7 +1066,7 @@
   requirement: |
     На странице игры пользователь должен иметь возможность видеть чат и отправлять текст в чат
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -1059,7 +1093,7 @@
   requirement: |
     На странице игры пользователь должен иметь возможность отправлять смайлики из редактора смайлов в чат 
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -1083,11 +1117,11 @@
   requirement: |
     На странице игры пользователь должен иметь возможность видеть чат и отправлять текст в чат
   prerequisites: |
-    igrok_01 - Авторизовать на сайте с помощью браузера Microsoft Edge (email = testing_01@mail.ru  password = 123456 nikname = igrok_01)
-    igrok_02 - Открыть вкладку InPrivate и авторизовать на сайте второго пользователя (email = testing_02@mail.ru  password = 123456 nikname = igrok_02)
-    Открыть вкладки с авторизованными пользователями на разных мониторах или авторизовать второго пользователя на другом устройстве
-    У обоих игроков открыта главная страница Codebattle - https://codebattle.hexlet.io
-    У обоих игроков нет незавершенных игр. 
+    Авторизовать пользователей в разных браузерах или устройствах, (либо авторизовать igrok_02 через вкладку InPrivate)
+    igrok_01 - email = testing_01@mail.ru  password = 123456 nikname = igrok_01
+    igrok_02 - email = testing_02@mail.ru  password = 123456 nikname = igrok_02
+    У  игроков открыта главная страница Codebattle - https://codebattle.hexlet.io
+    У  игроков нет активных игр. 
   test-data: |
     -
   steps:
@@ -1115,11 +1149,11 @@
   requirement: |
     На странице игры пользователь должен иметь возможность видеть чат и отправлять текст в чат
   prerequisites: |
-    igrok_01 - Авторизовать на сайте с помощью браузера Microsoft Edge (email = testing_01@mail.ru  password = 123456 nikname = igrok_01)
-    igrok_02 - Открыть вкладку InPrivate и авторизовать на сайте второго пользователя (email = testing_02@mail.ru  password = 123456 nikname = igrok_02)
-    Открыть вкладки с авторизованными пользователями на разных мониторах или авторизовать второго пользователя на другом устройстве
-    У обоих игроков открыта главная страница Codebattle - https://codebattle.hexlet.io
-    У обоих игроков нет незавершенных игр. 
+    Авторизовать пользователей в разных браузерах или устройствах, (либо авторизовать igrok_02 через вкладку InPrivate)
+    igrok_01 - email = testing_01@mail.ru  password = 123456 nikname = igrok_01
+    igrok_02 - email = testing_02@mail.ru  password = 123456 nikname = igrok_02
+    У  игроков открыта главная страница Codebattle - https://codebattle.hexlet.io
+    У  игроков нет активных игр. 
   test-data: |
     text_01 = Текст отображается?
     text_02 = Отображается! 
@@ -1149,7 +1183,7 @@
   requirement: |
     На странице игры пользователь должен иметь возможность устроить матчреванш
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -1173,7 +1207,7 @@
   requirement: |
     После игры должно высвечиваться сообщение о результате проверки игры (выигрыш или проигрыш)
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -1207,7 +1241,7 @@
   requirement: |
     После игры должно высвечиваться сообщение о результате проверки игры (выигрыш или проигрыш)
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -1229,7 +1263,7 @@
   requirement: |
     На странице игры пользователь должен иметь возможность вернуться на главную страницу и с главной страницы вернуться обратно в игру
   prerequisites: |
-    Пользователь авторизован на сайте (email = Proverka@mail.ru  password = 123456)
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
     У пользователя нет активных игр 
     Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
@@ -1253,9 +1287,9 @@
     Другие пользователи могут следить за ходом игры в online режиме
   prerequisites: |
     Авторизовать пользователей в разных браузерах или устройствах
-    igrok_01 - email = testing_01@mail.ru  password = 123456 nikname = igrok_01)
-    igrok_02 - email = testing_02@mail.ru  password = 123456 nikname = igrok_02)
-    igrok_03 - email = testing_03@mail.ru  password = 123456 nikname = igrok_03)
+    igrok_01 - email = testing_01@mail.ru  password = 123456 nikname = igrok_01
+    igrok_02 - email = testing_02@mail.ru  password = 123456 nikname = igrok_02
+    igrok_03 - email = testing_03@mail.ru  password = 123456 nikname = igrok_03
     У всех игроков открыта главная страница Codebattle - https://codebattle.hexlet.io
     У игроков нет активных игр 
   test-data: |
@@ -1288,14 +1322,14 @@
     Другие пользователи могут писать в чат игры
   prerequisites: |
     Авторизовать пользователей в разных браузерах или устройствах
-    igrok_01 - email = testing_01@mail.ru  password = 123456 nikname = igrok_01)
-    igrok_02 - email = testing_02@mail.ru  password = 123456 nikname = igrok_02)
-    igrok_03 - email = testing_03@mail.ru  password = 123456 nikname = igrok_03)
+    igrok_01 - email = testing_01@mail.ru  password = 123456 nikname = igrok_01
+    igrok_02 - email = testing_02@mail.ru  password = 123456 nikname = igrok_02
+    igrok_03 - email = testing_03@mail.ru  password = 123456 nikname = igrok_03
     У всех игроков открыта главная страница Codebattle - https://codebattle.hexlet.io
     У игроков нет активных игр 
   test-data: |
     text_01 - Привет! Сразимся кто быстрее?
-    text_02 - Привет! Разумеется:)
+    text_02 - Привет! Разумеется)
     text_03 - Всем удачи! Постарайтесь! Задача не простая) 
   steps:
     - igrok_01 - Нажать на кнопку "Create a game" 
@@ -1325,856 +1359,127 @@
     Пользователь может писать в чат игры других пользователей. Сообщения отображаются в online режиме
 
 - summary: |
-    00000000000000
+    Принятие приглашения в игру 
   requirement: |
-    На страницы игры пользователь может видеть редактор с кодом и вывод тестов другого игрока 
+    Пользователь должен иметь возможность принять приглашение в игру. 
   prerequisites: |
-    00000000000000
+    Авторизовать пользователей в разных браузерах или устройствах. Либо авторизовать второго игрока через вкладку InPrivate
+    igrok_01 - email = testing_01@mail.ru  password = 123456 nikname = igrok_01
+    igrok_02 - email = testing_02@mail.ru  password = 123456 nikname = igrok_02
+    У всех игроков открыта главная страница Codebattle - https://codebattle.hexlet.io
+    У игроков нет активных игр 
   test-data: |
-    00000000000000
+    -
   steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
+    - igrok_01 - Нажать на кнопку "Create a game" 
+    - igrok_01 - Выбрать level, например easy
+    - igrok_01 - Нажать кнопку "With a friend" в Game Type
+    - igrok_01 - Выбрать любое время в Time control, например 10 min
+    - igrok_01 - В Choose opponent ввести пользователя = igrok_02
+    - igrok_01 - В Choose opponent нажать на пользователя = igrok_02
+    - igrok_01 - Выбрать любое значение из списка Choose task by name, например random task
+    - igrok_01 - Нажать кнопку "Create battle"
+    - igrok_01 - На главной странице возле созданной игры нажать "Rating"
+    - igrok_02 - Нажать на высветившееся уведомление в меню
+    - igrok_02 - Нажать кнопку "Accept" 
   expected-result: |
-    00000000000000
+    Пользователь принял приглашение в игру. Открыта страница с игрой
 
 - summary: |
-    00000000000000
+    Отказ от приглашения в игру
   requirement: |
-    00000000000000
+    Пользователь должен иметь возможность отказаться от приглашения в игру
   prerequisites: |
-    00000000000000
+    Авторизовать пользователей в разных браузерах или устройствах. Либо авторизовать второго игрока через вкладку InPrivate
+    igrok_01 - email = testing_01@mail.ru  password = 123456 nikname = igrok_01
+    igrok_02 - email = testing_02@mail.ru  password = 123456 nikname = igrok_02
+    У всех игроков открыта главная страница Codebattle - https://codebattle.hexlet.io
+    У игроков нет активных игр 
   test-data: |
-    00000000000000
+    -
   steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
+    - igrok_01 - Нажать на кнопку "Create a game" 
+    - igrok_01 - Выбрать level, например easy
+    - igrok_01 - Нажать кнопку "With a friend" в Game Type
+    - igrok_01 - Выбрать любое время в Time control, например 10 min
+    - igrok_01 - В Choose opponent ввести пользователя = igrok_02
+    - igrok_01 - В Choose opponent нажать на пользователя = igrok_02
+    - igrok_01 - Выбрать любое значение из списка Choose task by name, например random task
+    - igrok_01 - Нажать кнопку "Create battle"
+    - igrok_01 - На главной странице возле созданной игры нажать "Rating"
+    - igrok_02 - Нажать на высветившееся уведомление в меню
+    - igrok_02 - Нажать кнопку "Decline" 
   expected-result: |
-    00000000000000
+    Пользователь отклонил приглашение в игру. Уведомление с приглашением пропало. 
+
+#Профиль
+- summary: |
+    Просмотр  профиля
+  requirement: |
+    Авторизованный пользователь должен иметь возможность просматривать информацию своего профиля – ранг, рейтинг, количество сыгранных игр, активность
+  prerequisites: |
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
+    Открыта главная страница Codebattle - https://codebattle.hexlet.io
+  test-data: |
+    -
+  steps:
+    - Нажать на имя игрока "igrok_01" в меню сайта
+    - Нажать "My Profile"
+    - Нажать "Statistics"
+    - Нажать "Completed games"
+  expected-result: |
+    Открыта страница профиля. Отображаются данные по статистике игрока и завершенные игры 
 
 - summary: |
-    00000000000000
+    Изменение информации профиля
   requirement: |
-    00000000000000
+    Авторизованный пользователь должен иметь возможность просматривать и редактировать параметры профиля – имя, язык программирования, клан
   prerequisites: |
-    00000000000000
+    Пользователь авторизован на сайте - testing_04@mail.ru  password = 123456 nikname = igrok_04
+    Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
-    00000000000000
+    new nikname = atarashii_04
   steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
+    - Нажать на имя игрока "igrok_04" в меню сайта
+    - Нажать "Settings"
+    - В поле "Your name" ввести new nikname
+    - Нажать на список "Your weapon"
+    - Выбрать любой язык программирования, например php
+    - Нажать на поле "Your clan"
+    - Ввести любой клан, например "neko"
+    - Нажать "Save"
   expected-result: |
-    00000000000000
+    Введенные изменения сохранены. Всплывает сообщение "You setting has been changed" ("Ваши настройки были изменены")
 
 - summary: |
-    00000000000000
+    Открытие рейтинга игроков
   requirement: |
-    00000000000000
+    Пользователи получают очки, на основе которых строится рейтинг за неделю, месяц и за все время
   prerequisites: |
-    00000000000000
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
+    Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
-    00000000000000
+    -
   steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
+    - Под окном "Leaderboard" нажать на кнопку "Top list"
+    - Нажать "weekly"
+    - Нажать "monthly"
+    - Нажать "total"
   expected-result: |
-    00000000000000
+    Отображается рейтинг всех пользователей по неделе, месяцу и всё время
 
 - summary: |
-    00000000000000
+    Выход из системы пользователем
   requirement: |
-    00000000000000
+    Авторизованный пользователь должен иметь возможность выйти из системы
   prerequisites: |
-    00000000000000
+    Пользователь авторизован на сайте - testing_01@mail.ru  password = 123456 nikname = igrok_01
+    Открыта главная страница Codebattle - https://codebattle.hexlet.io
   test-data: |
-    00000000000000
+    -
   steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
+    - Нажать на имя игрока "igrok_01" в меню сайта
+    - Нажать "Sign Out"
   expected-result: |
-    00000000000000
+    Пользователь вышел из системы. Отображается главная страница сайта. 
 
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
-
-- summary: |
-    00000000000000
-  requirement: |
-    00000000000000
-  prerequisites: |
-    00000000000000
-  test-data: |
-    00000000000000
-  steps:
-    - 00000000000000
-    - 00000000000000
-    - 00000000000000
-  expected-result: |
-    00000000000000
