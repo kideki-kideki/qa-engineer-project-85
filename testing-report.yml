@@ -263,10 +263,14 @@
 - summary: |
     Просмотр личного профиля
   status: pass
-   
+
 - summary: |
     Изменение информации профиля
-   status: pass
+  status: pass
+
+- summary: |
+    Изменение звука игры
+  status: fail
 
 - summary: |
     Открытие рейтинга игроков
