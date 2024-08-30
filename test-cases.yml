@@ -1625,7 +1625,7 @@
   test-data: |
     -
   steps:
-    igrok_01 - В окне "Online players: ?" нажать на игрока igrok_02
+    igrok_01 - В окне "Online players" нажать на игрока igrok_02
     igrok_01 - Нажать "Direct messager"
     igrok_01 - В поле для ввода сообщения ввести любой текст, например "Сыграем?"
     igrok_01 - Нажать "Send" 
