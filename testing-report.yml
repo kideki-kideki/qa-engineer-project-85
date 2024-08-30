@@ -148,7 +148,7 @@
   status: pass
 
 - summary: |
-    Работа руководства по объяснению игры
+    Работа руководства по объяснению игры 
   status: pass
 
 - summary: |
@@ -160,11 +160,11 @@
   status: pass
 
 - summary: |
-    Английская версия задачи в игре 
+    Английская версия задачи в игре
   status: pass
    
 - summary: |
-    Работа кнопки "Give up" в игре 
+    Работа кнопки "Give up" в игре
   status: pass
 
 - summary: |
