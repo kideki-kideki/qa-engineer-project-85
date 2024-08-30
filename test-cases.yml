@@ -598,16 +598,16 @@
   test-data: |
     Game Tupe = With other user
   steps:
-    igrok_01 - Нажать на кнопку "Create a game"
-    igrok_01 - Выбрать level, например easy
-    igrok_01 - Нажать кнопку "With other user" в Game Type
-    igrok_01 - Выбрать любое время в Time control, например 30 min
-    igrok_01 - Выбрать любой tags, например math
-    igrok_01 - Выбрать любое значение из списка Choose task by name, например random task
-    igrok_01 - Нажать кнопку "Create battle"
-    igrok_01 - На главной странице возле созданной игры нажать "Rating"
-    igrok_02 - На главной странице в разделе Lobby найти игру с Players = igrok_01
-    igrok_02 - Нажать кнопку "Fight"
+    - igrok_01 - Нажать на кнопку "Create a game"
+    - igrok_01 - Выбрать level, например easy
+    - igrok_01 - Нажать кнопку "With other user" в Game Type
+    - igrok_01 - Выбрать любое время в Time control, например 30 min
+    - igrok_01 - Выбрать любой tags, например math
+    - igrok_01 - Выбрать любое значение из списка Choose task by name, например random task
+    - igrok_01 - Нажать кнопку "Create battle"
+    - igrok_01 - На главной странице возле созданной игры нажать "Rating"
+    - igrok_02 - На главной странице в разделе Lobby найти игру с Players = igrok_01
+    - igrok_02 - Нажать кнопку "Fight"
   expected-result: |
     У обоих игроков открывается страница с игрой 
 
@@ -1625,10 +1625,10 @@
   test-data: |
     -
   steps:
-    igrok_01 - В окне "Online players" нажать на игрока igrok_02
-    igrok_01 - Нажать "Direct messager"
-    igrok_01 - В поле для ввода сообщения ввести любой текст, например "Сыграем?"
-    igrok_01 - Нажать "Send" 
+    - igrok_01 - В окне "Online players" нажать на игрока igrok_02
+    - igrok_01 - Нажать "Direct messager"
+    - igrok_01 - В поле для ввода сообщения ввести любой текст, например "Сыграем?"
+    - igrok_01 - Нажать "Send" 
   expected-result: |
     Сообщение от igrok_01 отправлено. Открыт чат с пользователем igrok_02
     У игрока igrok_02 отображается сообщение отправленное от igrok_01 в общем чате с пометкой "[private]" 
@@ -1644,14 +1644,14 @@
   test-data: |
     -
   steps:
-    igrok_01 - В окне "Online players" нажать на игрока igrok_02
-    igrok_01 - Нажать "Direct messager"
-    igrok_01 - В поле для ввода сообщения ввести любой текст, например "Сыграем?"
-    igrok_01 - Нажать "Send" 
-    igrok_02 - В окне "Online players" нажать на игрока igrok_01
-    igrok_02 - Нажать "Direct messager"
-    igrok_02 - В поле для ввода сообщения ввести любой текст, например "Без проблем)"
-    igrok_02 - Нажать "Send" 
+    - igrok_01 - В окне "Online players" нажать на игрока igrok_02
+    - igrok_01 - Нажать "Direct messager"
+    - igrok_01 - В поле для ввода сообщения ввести любой текст, например "Сыграем?"
+    - igrok_01 - Нажать "Send" 
+    - igrok_02 - В окне "Online players" нажать на игрока igrok_01
+    - igrok_02 - Нажать "Direct messager"
+    - igrok_02 - В поле для ввода сообщения ввести любой текст, например "Без проблем)"
+    - igrok_02 - Нажать "Send" 
   expected-result: |
     Сообщение от igrok_01 отправлено. Открыт чат с пользователем igrok_02
     Сообщение от igrok_02 отправлено. Открыт чат с пользователем igrok_01
@@ -1685,10 +1685,10 @@
   test-data: |
     -
   steps:
-    igrok_01 - В окне чата нажать на поле ввода сообщения
-    igrok_01 - Ввести любой текст, например "Всем привет!"
-    igrok_01 - В окне чата нажать на поле ввода сообщения
-    igrok_01 - Ввести любой текст, например "И тебе!" 
+    - igrok_01 - В окне чата нажать на поле ввода сообщения
+    - igrok_01 - Ввести любой текст, например "Всем привет!"
+    - igrok_01 - В окне чата нажать на поле ввода сообщения
+    - igrok_01 - Ввести любой текст, например "И тебе!" 
   expected-result: |
     Сообщение от двух игроков отправлено в чат и отображается у каждого корректно
 
